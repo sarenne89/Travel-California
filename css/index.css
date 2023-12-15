@@ -1,0 +1,120 @@
+/* Global styles ============= */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+a {
+  color: #fdcc52;
+  transition: all .35s;
+}
+
+a:hover, a:focus {
+  color: #fcbd20;
+}
+
+hr {
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1);
+}
+
+hr.light {
+  border-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h2 {
+  font-size: 50px;
+}
+
+.navbar-nav {
+  
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  text-shadow: 6px 0 0 #313131, 0 6px 0 #313131, -6px 0 0 #313131, 0 -6px 0 #313131;
+  color: #ffe000
+}
+
+.nav-link {
+  font-size: 2rem;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #fcbd20;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.masthead {
+  background-image: url(../images/bg-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.device-container img {
+  width: 300px;
+}
+
+.masthead h1 {
+  color: #fff;
+}
+
+.download {
+  background-color: #fdc949;
+}
+
+.card {
+  border: none;
+}
+
+.card img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.signup-section {
+  background-image: url(../images/SF.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#contact .card {
+  height: 200px;
+}
+
+.social i {
+  width: 50px;
+}
